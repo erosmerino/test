@@ -59,7 +59,7 @@
       <div class="formulario">            
     <h1>Formulario de contacto</h1>
               <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
-                  <form action="/enviar.php" method="post">               
+                  <form action="enviar.php" method="post">               
                               <p>
                                   <label for="nombre" class="colocar_nombre">Nombre
                                       <span class="obligatorio">*</span>
@@ -78,7 +78,7 @@
                                   <label for="asunto" class="colocar_asunto">Asunto
                                       <span class="obligatorio">*</span>
                                   </label>
-                                      <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                      <input type="text" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto">
                               </p>        
                           
                               <p>
@@ -88,8 +88,7 @@
                                     <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
                               </p>                                    
                           
-                              <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-
+                               <input type="button" value="Enviar Mensaje" id="btnSend">
                               <p class="aviso">
                                   <span class="obligatorio"> * </span>los campos son obligatorios.
                               </p>                    
