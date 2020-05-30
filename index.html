@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agsotecchile</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <a class="nav-brand" href="/index.html">
+        <img src="/img/brand.png" alt="Agsotecchile Logo" class="nav-brand">
+        </a>
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+          <a href="/sections/Quienes Somos/1.html">Quiénes Somos</a>
+        </li>
+        <li>
+          <a href="/sections/Que hacemos/2.html">Qué hacemos</a>
+        </li>
+        <li>
+          <a href="/sections/Únete a Nosotros/3.html">Únete a Nosotros</a>
+        </li>
+        <li>
+          <a href="/sections/Contacto/4.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+
+    <!-- FORMULARIO DE CONTACTO-->
+    <section class="form_wrap">
+      <section class="contact_info">
+        <section class="info_tittle">
+          <span class="fa fa-user-circle"></span>
+          <h2>Informacion de Contactos y Directiva</h2>
+        </section>
+        <section class="info_items">
+          <p><span class="fa fa-envelope"></span>tanto@tanto.cl</p>
+        </section>
+      </section>
+    <div class="contact_form">
+      <div class="formulario">            
+    <h1>Formulario de contacto</h1>
+              <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                  <form action="/enviar.php" method="post">               
+                              <p>
+                                  <label for="nombre" class="colocar_nombre">Nombre
+                                      <span class="obligatorio">*</span>
+                                  </label>
+                                      <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                              </p>
+                          
+                              <p>
+                                  <label for="email" class="colocar_email">Email
+                                      <span class="obligatorio">*</span>
+                                  </label>
+                                      <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                              </p>
+                      
+                              <p>
+                                  <label for="asunto" class="colocar_asunto">Asunto
+                                      <span class="obligatorio">*</span>
+                                  </label>
+                                      <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                              </p>        
+                          
+                              <p>
+                                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                                      <span class="obligatorio">*</span>
+                                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                              </p>                                    
+                          
+                              <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                              <p class="aviso">
+                                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                              </p>                    
+                  </form>
+        </div>  
+   </div>
+ </section>
+
+    <!-- Follow -->
+    <section class="social">
+      <p>Siguenos en Nuestras Redes Sociales</p>
+      <div class="links">
+        <a href="https://www.facebook.com/Agsotec.chile">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/agsotec">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/agsotec.chile/">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="footer-links">
+    <div class="footer-container">
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Quiénes Somos</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Directiva</a>
+        </li>
+        <li>
+          <a href="#">Técnicos y Empresas</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Qué Hacemos</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Funcionamiento</a>
+        </li>
+        <li>
+          <a href="#">Estatuto</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Únete a Nosotros</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Ficha de Inscripción</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Contacto</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">contacto@agsotecchile.cl</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h3>Agsotecchile Copyright © EM</h3>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
