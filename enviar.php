@@ -13,3 +13,4 @@ $carta .= "asunto: $introducir_asunto \n";
 $carta .= "mensaje: $introducir_mensaje";
 
 mail($destinatario, $asunto, $carta);
+?>
